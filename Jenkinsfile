@@ -12,6 +12,7 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
+                echo "prova test"
                 echo "doing build a lot of stuff.."
                 '''
             }
